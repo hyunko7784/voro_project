@@ -53,7 +53,7 @@ function shopifyCall($token, $shop, $api_endpoint, $query = array(), $method = '
 $timezone = "America/Bahia_Banderas";
 date_default_timezone_set($timezone);
 
-$token = "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";
+$token = "";
 $shop = "voromotors";
 
 $storeURL = "https://" . $shop . ".myshopify.com";
